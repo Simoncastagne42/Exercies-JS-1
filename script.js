@@ -17,3 +17,9 @@
 //     "Ville : " +
 //     city
 // );
+
+// exercice 3
+let reponse = prompt("Quel est ton nom ?", "<Entrez ici votre nom>");
+if (reponse != null) {
+    alert("Bonjour " + reponse);
+};
