@@ -32,14 +32,14 @@
 //      };
 
 // exercice 5 
-let reponse = prompt("Donnez moi un nombres à virgules"); 
-let reponse2 = prompt("Donnez moi un nombres à virgules");
+let reponse = prompt("Donnez moi un nombre à virgules"); 
+let reponse2 = prompt("Donnez moi un nombre à virgules");
 
 let changenombre1= parseInt(reponse);
 let changenombre2= parseInt(reponse2);
 
 let resultat1 = Math.trunc(changenombre1);
-let resultat2 = Math.trunc(changenombre2);
 
-window.alert(resultat1*resultat2);
+
+window.alert(resultat1*reponse2);
 
