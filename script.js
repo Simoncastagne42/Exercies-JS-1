@@ -19,7 +19,14 @@
 // );
 
 // exercice 3
+// let reponse = prompt("Quel est ton nom ?", "<Entrez ici votre nom>");
+// if (reponse != null) {
+//     alert("Bonjour " + reponse);
+// };
+
+// exercice 4
 let reponse = prompt("Quel est ton nom ?", "<Entrez ici votre nom>");
 if (reponse != null) {
-    alert("Bonjour " + reponse);
-};
+        prompt("Quel est votre prénom ?");
+        prompt("Quelle est votre ville ?");
+     };
